@@ -1,26 +1,49 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './Base/Navbar';
+import Cook from './Cook/Cook';
+import Learn from './Learn/Learn';
+
+import PageNotFound from './Base/PageNotFound';
+
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+
+// import { HashRouter as Router } from 'react-router-dom';
+// import {BrowserRouter as  Route, Switch} from 'react-router-dom';
+
 
 function App() {
+  const title = 'Welcome to EZcook';
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          If you're reading this, it worked. 
-          swag :3
-        </a>
-      </header>
-    </div>
+    <Router basename={process.env.PUBLIC_URL}>
+      <div className="App">
+        <Navbar/> 
+        <div className="content">
+          <Switch>
+            <Route exact path= {"/cook"}>
+              <Cook></Cook>
+            </Route>
+            
+
+            <Route exact path={"/learn"}>
+              <Learn></Learn>
+            </Route>
+
+            <Route exact path={"/"}>
+              <Cook></Cook>
+            </Route>
+
+            <Route path="*">
+              <PageNotFound></PageNotFound>
+            </Route>
+
+
+          </Switch>
+          
+        </div>
+      </div>
+    </Router>
   );
 }
+
+
 
 export default App;
