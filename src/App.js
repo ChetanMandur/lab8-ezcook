@@ -11,7 +11,6 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 
 function App() {
-  const title = 'Welcome to EZcook';
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
