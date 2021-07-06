@@ -13,7 +13,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 function App() {
   return (
-    <Router basename={"lab8-ezcook"}>
+    <Router basename={"/lab8-ezcook"}>
       <div className="App">
         <Navbar/> 
         <div className="content">
