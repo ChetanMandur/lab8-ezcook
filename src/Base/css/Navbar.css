@@ -1,35 +1,37 @@
 .navbar {
-    /* padding: 20px; */
     display: flex;
     align-items: center;
-    /* max-width: 600px; */
     margin: 0;
     border-bottom: 1px solid #f2f2f2;
   }
   .navbar h1 {
     color:black;
     font-weight:200;
-    font-size: 3rem;
+    font-size:calc(0.75em + 3vmin);
+
 
     margin:0;
 
   }
   .navbar .links {
-    /* float: none;
     position: absolute;
-    top:3%; 
-    left: 50%;
-    transform: translate(-50%, -50%); */
-    position: absolute;
-    left:45%
+    left:43%
   }
   .navbar a {
     text-align: center;
     margin-left: 16px;
     text-decoration: none;
     padding: 6px;
+    font-size:calc(0.50em + 1vmin);
+    color:black;
+    font-weight: bold;
+
 
   }
   .navbar a:hover {
+    color: orange;
+  }
+
+  .navbar a:active{
     color: orange;
   }
