@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/lab8-ezcook/static/css/main.f79b40af.chunk.css",
-    "main.js": "/lab8-ezcook/static/js/main.f825ed5e.chunk.js",
-    "main.js.map": "/lab8-ezcook/static/js/main.f825ed5e.chunk.js.map",
+    "main.js": "/lab8-ezcook/static/js/main.5a545450.chunk.js",
+    "main.js.map": "/lab8-ezcook/static/js/main.5a545450.chunk.js.map",
     "runtime-main.js": "/lab8-ezcook/static/js/runtime-main.01cc1931.js",
     "runtime-main.js.map": "/lab8-ezcook/static/js/runtime-main.01cc1931.js.map",
     "static/js/2.15e4cecc.chunk.js": "/lab8-ezcook/static/js/2.15e4cecc.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.01cc1931.js",
     "static/js/2.15e4cecc.chunk.js",
     "static/css/main.f79b40af.chunk.css",
-    "static/js/main.f825ed5e.chunk.js"
+    "static/js/main.5a545450.chunk.js"
   ]
 }
