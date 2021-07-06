@@ -9,10 +9,11 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 // import { HashRouter as Router } from 'react-router-dom';
 // import {BrowserRouter as  Route, Switch} from 'react-router-dom';
 
+// import {HashRouter as Router, Route, Switch} from 'react-router-dom';
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename={"lab8-ezcook"}>
       <div className="App">
         <Navbar/> 
         <div className="content">
@@ -41,6 +42,25 @@ function App() {
       </div>
     </Router>
   );
+
+  // return (
+  //   <Router basename={process.env.PUBLIC_URL}>
+  //     <div className="App">
+  //       <Navbar/> 
+  //       <div className="content">
+  //         <Switch>
+  //           <Route exact path={process.env.PUBLIC_URL + "/"} component={Cook}></Route>
+  //           <Route exact path={process.env.PUBLIC_URL + "/cook"} component={Cook}></Route>
+  //           <Route exact path={process.env.PUBLIC_URL + "/learn"} component={Learn}></Route>
+  //           <Route component={PageNotFound} status={404}></Route>
+  //         </Switch>
+          
+  //       </div>
+  //     </div>
+  //   </Router>
+  // );
+
+
 }
 
 
