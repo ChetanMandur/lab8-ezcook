@@ -17,7 +17,7 @@ function App() {
         <Navbar/> 
         <div className="content">
           <Switch>
-            <Route exact path= {"/cook"}>
+            <Route exact path= { "/cook"}>
               <Cook></Cook>
             </Route>
             
