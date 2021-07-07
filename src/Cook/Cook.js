@@ -1,7 +1,9 @@
+import RecipeRow from "./RecipeRow"
+
 const Cook = () => {
     return (  
         <div className="cook">
-            <h2>Cook</h2>
+            <RecipeRow name="Trending" filterType="trending"></RecipeRow>
         </div>
     );
 }
