@@ -1,5 +1,5 @@
 import './css/Navbar.css'
-
+import {MdHelpOutline} from "react-icons/md";
 function colourChangeClick(id) {
     document.getElementById(id).style.backgroundColor = "white";
     const navButtonIDList = ["cookNav", "learnNav", "createNav"];
@@ -46,6 +46,12 @@ const Navbar = () => {
                     onMouseOut={(e) => colourChangeOff(e.target.id)}
                 >Create</a>
             </div>
+
+            <div className="extra">
+                <div className="helpNav"><MdHelpOutline/></div>
+                <input className="searchNav" placeholder="Search..." type="text" name="" id="" />
+            </div>
+            
         </nav>
     );
 }

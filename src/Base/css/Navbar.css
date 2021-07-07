@@ -1,6 +1,7 @@
 .navbar {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin: 0;
     border-bottom: 1px solid #f2f2f2;
   }
@@ -13,15 +14,12 @@
     margin:0;
 
   }
-  .navbar .links {
-    position: absolute;
-    left:43%
-  }
+
   .navbar a {
     text-align: center;
     margin-left: 16px;
     text-decoration: none;
-    padding: 6px;
+    padding: 3px;
     font-size:calc(0.50em + 1vmin);
     color:black;
     font-weight: bold;
@@ -29,11 +27,38 @@
 
 
   }
-  /* .navbar a:hover {
-    color: rgb(255, 166, 0);
-  } */
 
-  /* .navbar a:active{
+  .navbar .searchNav{
+    width: calc(3em + 10vmin);
+    height: calc(0.5em + 1vmin);
+    font-size:calc(0.50em + 1vmin);
+    outline: none;
+  }
+
+  .navbar .searchNav:focus{
+    border: 2px solid orange;
+  }
+
+  .navbar .searchNav:hover{
+    border: 2px solid orange;
+  }
+
+  .navbar .extra{
+    display:flex;
+    align-items: center;
+  }
+
+  .navbar .helpNav{
+    display: flex;
+    font-size:x-large;
+    padding-right: calc(0.20em + 0.5vmin);
+    font-size:calc(0.75em + 1vmin);
+    align-items: center;
+  }
+
+  .navbar .helpNav:hover{
     color: orange;
-  } */
+  }
+
+
 
