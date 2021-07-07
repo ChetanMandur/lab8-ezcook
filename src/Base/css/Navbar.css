@@ -25,13 +25,15 @@
     font-size:calc(0.50em + 1vmin);
     color:black;
     font-weight: bold;
+    border-radius: 10%;
 
 
   }
-  .navbar a:hover {
+  /* .navbar a:hover {
+    color: rgb(255, 166, 0);
+  } */
+
+  /* .navbar a:active{
     color: orange;
-  }
+  } */
 
-  .navbar a:active{
-    color: orange;
-  }

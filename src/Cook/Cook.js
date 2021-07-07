@@ -5,5 +5,6 @@ const Cook = () => {
         </div>
     );
 }
+
  
 export default Cook;
