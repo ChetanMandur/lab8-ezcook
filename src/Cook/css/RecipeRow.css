@@ -22,17 +22,28 @@
 
 
 .recipeRowSub::-webkit-scrollbar-thumb {
-    background: rgb(180, 180, 180);
+    background: rgb(218, 218, 218);
 }
 
 
 .recipeRowSub::-webkit-scrollbar-thumb:hover {
-    background: rgb(134, 134, 134);
+    background: rgb(185, 185, 185);
 }
 
 .rowName{
     font-weight: bolder;
-    padding-left: 1%;
-    font-size:2rem;
+    margin-left: 16px;
+    padding:0;
+    font-size:calc(1em + 1.25vmin);
+}
+
+.recipeCardTitle{
+    font-size:calc(0.50em + 0.55vmax );
+
+}
+
+.recipeCardText{
+    font-size:calc(0.40em + 0.55vmax);
+
 }
 
