@@ -8,7 +8,7 @@ const RecipeRow = (props) => {
     const filterType = props.filterType
     return (  
         <div className="recipeRowMain">
-            <h2>{name}</h2>
+            <div className="rowName">{name}</div>
             <div className="recipeRowSub">
                 {recipeListJSON.filter(
                     function (recipe){

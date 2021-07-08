@@ -13,19 +13,26 @@
 .recipeRowSub::-webkit-scrollbar {
     width: 5px;
     height: 10px;
-  }
-  
+}
+
 
 .recipeRowSub::-webkit-scrollbar-track {
     background: #f1f1f1;
-  }
-  
+}
+
 
 .recipeRowSub::-webkit-scrollbar-thumb {
     background: rgb(180, 180, 180);
-  }
-  
+}
+
 
 .recipeRowSub::-webkit-scrollbar-thumb:hover {
     background: rgb(134, 134, 134);
-  }
+}
+
+.rowName{
+    font-weight: bolder;
+    padding-left: 1%;
+    font-size:2rem;
+}
+
