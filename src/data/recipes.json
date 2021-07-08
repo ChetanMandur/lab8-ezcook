@@ -5,7 +5,7 @@
         "desc": "Description of grilled cheese",
         "body":"This is the body of how to make grilled cheese",
         "steps": ["This is the first step in making a grilled cheese", "this is the second step of making a grilled cheese"],
-        "image": "src/data/imgs/grilledcheese.jpg",
+        "image": "imgs/grilledcheese.jpg",
         "trending": true,
         "favourite": true
     },
@@ -15,7 +15,7 @@
         "desc": "Description of apple pie",
         "body":"This is the body of how to make apple pie",
         "steps": ["This is the first step in making an apple pie", "this is the second step of making an apple pie"],
-        "image": "src/data/imgs/applepie.jpg",
+        "image": "imgs/applepie.jpg",
         "trending": true,
         "favourite": false
     }

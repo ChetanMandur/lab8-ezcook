@@ -24,8 +24,8 @@ const RecipeRow = (props) => {
                     }
 
                 ).map( (recipe) =>(
-                    <Card key={recipe.id}>
-                        <Card.Img variant="top" src={recipe.image} />
+                    <Card key={recipe.id} style={{ width: '16rem' }} >
+                        <Card.Img variant="top" src={  process.env.PUBLIC_URL+"/"+recipe.image} style={{ width: '11rem', height:'11rem' }} />
                         <Card.Body>
                             <Card.Title>{recipe.name}</Card.Title>
                             <Card.Text>
