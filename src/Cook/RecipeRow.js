@@ -9,7 +9,7 @@ const RecipeRow = (props) => {
     return (  
         <div className="recipeRowMain">
             <h2>{name}</h2>
-            <CardDeck>
+            <div className="recipeRowSub">
                 {recipeListJSON.filter(
                     function (recipe){
                         if (filterType === "trending"){
@@ -24,18 +24,19 @@ const RecipeRow = (props) => {
                     }
 
                 ).map( (recipe) =>(
-                    <Card key={recipe.id} style={{ width: '16rem' }} >
-                        <Card.Img variant="top" src={  process.env.PUBLIC_URL+"/"+recipe.image} style={{ width: '11rem', height:'11rem' }} />
-                        <Card.Body>
-                            <Card.Title>{recipe.name}</Card.Title>
-                            <Card.Text>
-                                {recipe.desc}
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-
+                    <div className="singleRecipe">
+                        <Card key={recipe.id} style={{ width: '16 rem' }} >
+                            <Card.Img variant="top" src={  process.env.PUBLIC_URL+"/"+recipe.image} style={{ width: '20rem', height:'15rem' }} />
+                            <Card.Body>
+                                <Card.Title>{recipe.name}</Card.Title>
+                                <Card.Text>
+                                    {recipe.desc}
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </div>
                 ))}
-            </CardDeck>
+            </div>
 
         </div>
     );
