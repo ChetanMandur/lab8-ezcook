@@ -18,5 +18,89 @@
         "image": "imgs/applepie.jpg",
         "trending": true,
         "favourite": false
+    },
+    {
+        "id":3,
+        "name": "Big Mac",
+        "desc": "Description of Big Mac",
+        "body":"This is the body of how to make Big Mac",
+        "steps": ["This is the first step in making an Big Mac", "this is the second step of making an Big Mac"],
+        "image": "imgs/bigmac.jpg",
+        "trending": true,
+        "favourite": true
+    }
+    ,
+    {
+        "id":4,
+        "name": "Sushi",
+        "desc": "Description of Sushi",
+        "body":"This is the body of how to make Sushi",
+        "steps": ["This is the first step in making an Sushi", "this is the second step of making an Sushi"],
+        "image": "imgs/sushi.jpg",
+        "trending": true,
+        "favourite": false
+    },
+    {
+        "id":5,
+        "name": "Sushi2",
+        "desc": "Description of Sushi",
+        "body":"This is the body of how to make Sushi",
+        "steps": ["This is the first step in making an Sushi", "this is the second step of making an Sushi"],
+        "image": "imgs/sushi.jpg",
+        "trending": true,
+        "favourite": false
+    },
+    {
+        "id":6,
+        "name": "Sushi3",
+        "desc": "Description of Sushi",
+        "body":"This is the body of how to make Sushi",
+        "steps": ["This is the first step in making an Sushi", "this is the second step of making an Sushi"],
+        "image": "imgs/sushi.jpg",
+        "trending": true,
+        "favourite": false
+    },
+    {
+        "id":7,
+        "name": "Sushi4",
+        "desc": "Description of Sushi",
+        "body":"This is the body of how to make Sushi",
+        "steps": ["This is the first step in making an Sushi", "this is the second step of making an Sushi"],
+        "image": "imgs/sushi.jpg",
+        "trending": true,
+        "favourite": false
+    }
+    ,
+    {
+        "id":8,
+        "name": "Sushi5",
+        "desc": "Description of Sushi",
+        "body":"This is the body of how to make Sushi",
+        "steps": ["This is the first step in making an Sushi", "this is the second step of making an Sushi"],
+        "image": "imgs/sushi.jpg",
+        "trending": true,
+        "favourite": false
+    }
+    ,
+    {
+        "id":9,
+        "name": "Sushi5",
+        "desc": "Description of Sushi",
+        "body":"This is the body of how to make Sushi",
+        "steps": ["This is the first step in making an Sushi", "this is the second step of making an Sushi"],
+        "image": "imgs/sushi.jpg",
+        "trending": true,
+        "favourite": false
+    }
+    ,
+    {
+        "id":10,
+        "name": "Sushi5",
+        "desc": "Description of Sushi",
+        "body":"This is the body of how to make Sushi",
+        "steps": ["This is the first step in making an Sushi", "this is the second step of making an Sushi"],
+        "image": "imgs/sushi.jpg",
+        "trending": true,
+        "favourite": false
     }
 ]
