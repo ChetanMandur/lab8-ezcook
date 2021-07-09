@@ -21,7 +21,7 @@ const SingleRecipePage = () => {
     else{
         return ( 
             <div className="singleRecipeBase">
-                    <Row>
+                    <Row noGutters={true}>
                         <Col>
                             <Card className="bg-dark text-white">
                                 <Card.Img src={  process.env.PUBLIC_URL+"/"+recipe.image} alt="Card image" />
@@ -38,7 +38,7 @@ const SingleRecipePage = () => {
                     <br>
                     </br>
 
-                    <Row>
+                    <Row noGutters={true}>
                         <Col>
                             <div className="singleRecipeSub">
                                 <h1>Ingredients</h1>
@@ -55,12 +55,13 @@ const SingleRecipePage = () => {
                             <div className="singleRecipeSub">
                                 <h1>Aditional Info</h1>
                                 <ul>
-                                    <li>Total Time: {recipe.timePrep + recipe.timeCook} min(s)</li>
+                                    <li><b>Total Time:</b> {recipe.timePrep + recipe.timeCook} min(s)</li>
                                     <ul>
                                         <li>Prep Time: {recipe.timePrep} min(s)</li>
                                         <li>Cook Time: {recipe.timeCook} min(s)</li>
                                     </ul>
-                                    <li>Service Size: {recipe.servings}</li>
+                                    <li><b>Service Size:</b> {recipe.servings}</li>
+                                    <li><b>Difficulty:</b> {recipe.diff} </li>
                                 </ul>
                             </div>
                         </Col>
@@ -68,16 +69,18 @@ const SingleRecipePage = () => {
 
                     <br></br>
 
-                    <Row>
+                    <Row noGutters={true}>
                         <Col>
-                            <div className="singleRecipeSubPrep">
-                                <h1>Preperation</h1>
-                                <ol>
-                                    {recipe.prep.map(
-                                        current => ( <li>{current}</li> )
-                                    )}
+                            <div className="prepBorder">
+                                <div className="singleRecipeSub">
+                                    <h1>Preperation</h1>
+                                    <ol>
+                                        {recipe.prep.map(
+                                            current => ( <li>{current}</li> )
+                                        )}
 
-                                </ol>
+                                    </ol>
+                                </div>
                             </div>
                         </Col>
                     </Row>

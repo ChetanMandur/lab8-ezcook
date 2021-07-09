@@ -17,8 +17,11 @@
     font-size:calc(0.50em + 0.55vmax);
 }
 
-.card{
+.singleRecipeBase .card{
     width:100%;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    border-color: #d6d6d6;
     
 }
 
@@ -27,12 +30,33 @@
     height:65vh;
 }
 
-.singleRecipeSubPrep{
+.prepBorder{
     border-width: 1px 0px 0px 0px;
     border-style: solid;
-    border-color: black;
+    border-color: #d6d6d6;
 
 }
+
+
+
+.singleRecipeSub h1{
+    font-size:calc(1em + 0.75vmax );
+    text-decoration: underline;
+}
+
+.singleRecipeSub li{
+    font-size:calc(0.6em + 0.55vmax );
+}
+
+.prepBorder li::marker{
+    font-size:calc(0.85em + 0.75vmax );
+    font-weight: bold;
+}
+
+.prepBorder{
+    padding-top: 1%;
+}
+
 
 @media (max-width: 900px ), (max-height:600px) {
     .card .card-img {
