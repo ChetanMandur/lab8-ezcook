@@ -44,6 +44,15 @@
 
 .recipeCardText{
     font-size:calc(0.40em + 0.55vmax);
+}
 
+.singleRecipe a{
+    color: black;
+    text-decoration: none;
+}
+
+.singleRecipe a:hover{
+    color: orange;
+    text-decoration: none;
 }
 
