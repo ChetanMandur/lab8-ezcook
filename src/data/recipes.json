@@ -2,12 +2,19 @@
     {
         "id":1,
         "name": "Grilled Cheese",
-        "desc": "Description of grilled cheese",
+        "desc": "A simple yet delicious classic.  ",
         "body":"This is the body of how to make grilled cheese",
         "steps": ["This is the first step in making a grilled cheese", "this is the second step of making a grilled cheese"],
         "image": "imgs/grilledcheese.jpg",
         "trending": true,
-        "favourite": true
+        "favourite": true,
+        "ing": ["ing1","ing2", "ing3", "ing4"],
+        "prep": ["prep1","prep2", "prep3", "prep4"],
+        "timePrep": 5,
+        "timeCook": 5,
+        "servings": 1,
+        "diff": "Easy"
+
     },
     {
         "id":2,
@@ -17,7 +24,14 @@
         "steps": ["This is the first step in making an apple pie", "this is the second step of making an apple pie"],
         "image": "imgs/applepie.jpg",
         "trending": true,
-        "favourite": false
+        "favourite": false,
+        "ing": ["ing1","ing2", "ing3", "ing4"],
+        "prep": ["prep1","prep2", "prep3", "prep4"],
+        "timePrep": 5,
+        "timeCook": 5,
+        "servings": 1,
+        "diff": "Easy"
+        
     },
     {
         "id":3,
@@ -27,7 +41,13 @@
         "steps": ["This is the first step in making an Big Mac", "this is the second step of making an Big Mac"],
         "image": "imgs/bigmac.jpg",
         "trending": true,
-        "favourite": true
+        "favourite": true,
+        "ing": ["ing1","ing2", "ing3", "ing4"],
+        "prep": ["prep1","prep2", "prep3", "prep4"],
+        "timePrep": 5,
+        "timeCook": 5,
+        "servings": 1,
+        "diff": "Easy"
     }
     ,
     {
@@ -38,7 +58,13 @@
         "steps": ["This is the first step in making an Sushi", "this is the second step of making an Sushi"],
         "image": "imgs/sushi.jpg",
         "trending": true,
-        "favourite": false
+        "favourite": false,
+        "ing": ["ing1","ing2", "ing3", "ing4"],
+        "prep": ["prep1","prep2", "prep3", "prep4"],
+        "timePrep": 5,
+        "timeCook": 5,
+        "servings": 1,
+        "diff": "Easy"
     },
     {
         "id":5,
@@ -48,7 +74,13 @@
         "steps": ["This is the first step in making an Sushi", "this is the second step of making an Sushi"],
         "image": "imgs/sushi.jpg",
         "trending": true,
-        "favourite": false
+        "favourite": false,
+        "ing": ["ing1","ing2", "ing3", "ing4"],
+        "prep": ["prep1","prep2", "prep3", "prep4"],
+        "timePrep": 5,
+        "timeCook": 5,
+        "servings": 1,
+        "diff": "Easy"
     },
     {
         "id":6,
@@ -58,7 +90,13 @@
         "steps": ["This is the first step in making an Sushi", "this is the second step of making an Sushi"],
         "image": "imgs/sushi.jpg",
         "trending": true,
-        "favourite": false
+        "favourite": false,
+        "ing": ["ing1","ing2", "ing3", "ing4"],
+        "prep": ["prep1","prep2", "prep3", "prep4"],
+        "timePrep": 5,
+        "timeCook": 5,
+        "servings": 1,
+        "diff": "Easy"
     },
     {
         "id":7,
@@ -68,7 +106,13 @@
         "steps": ["This is the first step in making an Sushi", "this is the second step of making an Sushi"],
         "image": "imgs/sushi.jpg",
         "trending": true,
-        "favourite": false
+        "favourite": false,
+        "ing": ["ing1","ing2", "ing3", "ing4"],
+        "prep": ["prep1","prep2", "prep3", "prep4"],
+        "timePrep": 5,
+        "timeCook": 5,
+        "servings": 1,
+        "diff": "Easy"
     }
     ,
     {
@@ -79,7 +123,13 @@
         "steps": ["This is the first step in making an Sushi", "this is the second step of making an Sushi"],
         "image": "imgs/sushi.jpg",
         "trending": true,
-        "favourite": false
+        "favourite": false,
+        "ing": ["ing1","ing2", "ing3", "ing4"],
+        "prep": ["prep1","prep2", "prep3", "prep4"],
+        "timePrep": 5,
+        "timeCook": 5,
+        "servings": 1,
+        "diff": "Easy"
     }
     ,
     {
@@ -90,7 +140,13 @@
         "steps": ["This is the first step in making an Sushi", "this is the second step of making an Sushi"],
         "image": "imgs/sushi.jpg",
         "trending": true,
-        "favourite": false
+        "favourite": false,
+        "ing": ["ing1","ing2", "ing3", "ing4"],
+        "prep": ["prep1","prep2", "prep3", "prep4"],
+        "timePrep": 5,
+        "timeCook": 5,
+        "servings": 1,
+        "diff": "Easy"
     }
     ,
     {
@@ -101,6 +157,12 @@
         "steps": ["This is the first step in making an Sushi", "this is the second step of making an Sushi"],
         "image": "imgs/sushi.jpg",
         "trending": true,
-        "favourite": false
+        "favourite": false,
+        "ing": ["ing1","ing2", "ing3", "ing4"],
+        "prep": ["prep1","prep2", "prep3", "prep4"],
+        "timePrep": 5,
+        "timeCook": 5,
+        "servings": 1,
+        "diff": "Easy"
     }
 ]
