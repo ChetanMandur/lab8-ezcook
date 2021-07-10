@@ -23,7 +23,7 @@ const SingleRecipePage = () => {
             <div className="singleRecipeBase">
                     <Row noGutters={true}>
                         <Col>
-                            <Card className="bg-dark text-white">
+                            <Card className="bg-white text-white">
                                 <Card.Img src={  process.env.PUBLIC_URL+"/"+recipe.image} alt="Card image" />
                                 <Card.ImgOverlay>
                                     <Card.Title><h1>{recipe.name}</h1></Card.Title>
