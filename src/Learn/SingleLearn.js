@@ -20,16 +20,36 @@ const SingleLearn = () => {
 
     }
     else{
-        return (  
+        return (
             <div className="SingleLearnMain">
-                {learn.title}
-                <iframe width="560" height="315" src={learn.url} 
-                title={learn.title}
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen></iframe>
+                <br />
+                <Container>
+                    <Row>
+                        <div className="learnTitle">
+                            {learn.title}
+                        </div>
+                    </Row>
 
+                    
+
+                    <Row>
+                    <iframe className="videoFrame" width="560" height="315" src={learn.url} 
+                        title={learn.title}
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen></iframe>
+                    </Row>
+
+                    <br/>
+
+                    <Row>
+                        <div className="learnDesc">
+                            {learn.desc}
+                        </div>
+                    </Row>
+                </Container>
             </div>
+
         );
 
     }

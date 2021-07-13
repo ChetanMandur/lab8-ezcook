@@ -7,6 +7,7 @@
 
 .LearnColMain .learnCardTitle{
     font-size:calc(0.75em + 0.55vmax );
+    color:orange;
 }
 
 .LearnColMain .learnCardText{
@@ -17,4 +18,15 @@
     margin-left: 16px;
     margin-right: 16px;
     padding-top: 14px;
+}
+
+
+.singleLearn a{
+    color: black;
+    text-decoration: none;
+}
+
+.singleLearn a:hover{
+    color: orange;
+    text-decoration: none;
 }
