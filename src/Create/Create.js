@@ -1,4 +1,4 @@
-import { Prompt } from 'react-router'
+import colourChangeClick from '../Base/Navbar.js'
 import './css/Create.css';
 import { Col, Row } from "react-bootstrap";
 
@@ -89,12 +89,12 @@ function checkFields() {
 
     if (check){
         alert("Your recipe has been sent for review");
-        window.location.href='/';
+        window.location.href='#/cook';
+        colourChangeClick('cookNav');
     }
 
     else{
         alert("Please fix the offending area(s)");
-        
     }
     
 }
