@@ -89,10 +89,12 @@ function checkFields() {
 
     if (check){
         alert("Your recipe has been sent for review");
+        window.location.href='/';
     }
 
     else{
         alert("Please fix the offending area(s)");
+        
     }
     
 }
