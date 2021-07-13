@@ -1,0 +1,63 @@
+.createMain .newRecipeTitle{
+    font-weight: bolder;
+    margin-left: 16px;
+    padding:0;
+    font-size:calc(1em + 1.25vmin);
+
+
+}
+
+
+.createMain .createSub .row{
+    margin-left: 0px;
+}
+
+.createMain .createSub .col{
+    margin-left: 16px;
+}
+
+
+.createSubmit{
+    margin-left:16px;
+    width: calc(30em + 1.25vmin);
+}
+
+.createIngredients{
+    width: calc(30em + 1.25vmin);
+}
+
+.createAddInfo{
+    width: calc(30em + 1.25vmin);
+}
+
+.createPrep{
+    width: calc(50em + 1.25vmin);
+}
+
+.createName{
+    width: calc(30em + 1.25vmin);
+}
+
+@media only screen and (max-width: 1500px){
+
+    .createSubmit{
+        margin-left:16px;
+        width: 95vw;
+    }
+    
+    .createIngredients{
+        width: 95vw;
+    }
+    
+    .createAddInfo{
+        width: 95vw;
+    }
+    
+    .createPrep{
+        width: 95vw;
+    }
+
+    .createName{
+        width: 95vw;
+    }
+}
