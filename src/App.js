@@ -6,6 +6,7 @@ import PageNotFound from './Base/PageNotFound';
 
 import {HashRouter as Router, Route, Switch} from 'react-router-dom';
 import SingleRecipePage from './Cook/SingleRecipePage';
+import SingleLearn from './Learn/SingleLearn';
 
 
 function App() {
@@ -23,6 +24,9 @@ function App() {
                 </Route>
                 <Route exact path="/learn">
                   <Learn />
+                </Route>
+                <Route exact path="/learn/:id">
+                  <SingleLearn />
                 </Route>
                 <Route exact path="/">
                   <Cook />
