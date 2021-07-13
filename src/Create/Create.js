@@ -1,4 +1,4 @@
-import colourChangeClick from '../Base/Navbar.js'
+import {colourChangeClick} from '../Base/Navbar.js'
 import './css/Create.css';
 import { Col, Row } from "react-bootstrap";
 
