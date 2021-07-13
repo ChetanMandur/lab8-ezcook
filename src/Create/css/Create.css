@@ -17,26 +17,83 @@
 }
 
 
-.createSubmit{
-    margin-left:16px;
-    width: calc(30em + 1.25vmin);
+.createName{
+    width: calc(40em + 1.25vmin);
 }
 
 .createIngredients{
-    width: calc(30em + 1.25vmin);
+    width: calc(40em + 1.25vmin);
 }
 
 .createAddInfo{
-    width: calc(30em + 1.25vmin);
+    width: calc(40em + 1.25vmin);
+}
+
+.createSubmit{
+    margin-left:16px;
+    width: calc(40em + 1.25vmin);
 }
 
 .createPrep{
     width: calc(50em + 1.25vmin);
 }
 
-.createName{
-    width: calc(30em + 1.25vmin);
+
+
+.inputSubHead{
+    font-weight: bold;
+    font-size: large;
+
 }
+
+
+/* Create input */
+.createMain .createSub input{
+    outline: none;
+    border: 1.25px solid black;
+}
+
+.createMain .createSub input:focus{
+    border: 1.25px solid orange;
+}
+
+.createMain .createSub input:hover{
+    border: 1.25px solid orange;
+}
+
+
+/* Create textarea */
+.createMain .createSub textarea{
+    outline: none;
+    border: 1.25px solid black;
+  }
+
+.createMain .createSub textarea:focus{
+    border: 1.25px solid orange;
+    outline: none;
+}
+
+.createMain .createSub textarea:hover{
+    border: 1.25px solid orange;
+    outline: none;
+}
+
+
+/*  Create submit button*/
+.createMain .createSub .createSubmit{
+    outline: none;
+    font-weight: bold;
+    background-color: orange;
+    border: 2px solid orange;
+}
+
+
+
+.createMain .createSub .createSubmit:hover {
+    border: 2px solid orange;
+    background-color: rgb(236, 154, 0);
+}
+
 
 @media only screen and (max-width: 1500px){
 
