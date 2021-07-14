@@ -1,6 +1,11 @@
 import './css/Navbar.css'
 import {MdHelpOutline} from "react-icons/md";
 
+import recipeListJSON from '../data/recipes.json';
+import PageNotFound from '../Base/PageNotFound';
+
+import {useEffect} from 'react'
+
 export function colourChangeClick(id) {
     document.getElementById(id).style.backgroundColor = "white";
     const navButtonIDList = ["cookNav", "learnNav", "createNav"];
@@ -23,7 +28,45 @@ function colourChangeOff(id){
     document.getElementById(id).style.backgroundColor = "white";  
 }
 
+
+
+function searchBar(){
+    var searchBar = document.getElementById("searchBar");
+    var input = searchBar.value;
+    const recipe = recipeListJSON.find(
+        (current) => current.name == input
+    );
+
+
+    if (recipe == undefined){
+        searchBar.setAttribute("style", "animation: shake 0.5s;")
+    }
+
+    else{
+        window.location.href= '#/cook/' + recipe.id;
+        searchBar.value = "";
+        colourChangeClick('cookNav');
+
+    }
+
+}
+
 const Navbar = () => {
+
+    
+    useEffect(() =>{
+        document.getElementById('searchBar').addEventListener("keyup", function(event){
+            event.preventDefault();
+            if (event.key == 'Enter'){
+                searchBar()
+            }
+        })
+
+        document.getElementById('searchBar').addEventListener('animationend', () => {
+            document.getElementById("searchBar").style.animation = null;
+          });
+    });
+    
     return ( 
         <nav className="navbar">
             <h1><span style={{color:'orange', fontWeight:'bold'}}>EZ</span>cook</h1>
@@ -50,11 +93,14 @@ const Navbar = () => {
 
             <div className="extra">
                 <div className="helpNav"><MdHelpOutline/></div>
-                <input className="searchNav" placeholder="Search..." type="text" name="" id="" />
+                <input className="searchNav" placeholder="Search..." type="text" name="" id="searchBar" />
             </div>
             
         </nav>
     );
 }
+
+
+
  
 export default Navbar
