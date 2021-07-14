@@ -40,6 +40,7 @@ function searchBar(){
 
     if (recipe == undefined){
         searchBar.setAttribute("style", "animation: shake 0.5s;")
+        searchBar.value = "";
     }
 
     else{
