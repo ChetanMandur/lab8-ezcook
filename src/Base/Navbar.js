@@ -2,6 +2,8 @@ import './css/Navbar.css'
 import {MdHelpOutline} from "react-icons/md";
 
 import recipeListJSON from '../data/recipes.json';
+import learnListJSON from '../data/learn.json';
+
 import PageNotFound from '../Base/PageNotFound';
 
 import {useEffect} from 'react'
@@ -36,22 +38,33 @@ function colourChangeOff(id){
 
 function searchBar(){
     var searchBar = document.getElementById("searchBar");
-    var input = searchBar.value;
+    var input = searchBar.value.toLowerCase();
+
     const recipe = recipeListJSON.find(
-        (current) => current.name == input
+        (current) => current.name.toLowerCase() == input
+    );
+
+    const learn = learnListJSON.find(
+        (current) => current.title.toLowerCase() == input
     );
 
 
-    if (recipe == undefined){
+    if (recipe == undefined && learn == undefined){
         searchBar.setAttribute("style", "animation: shake 0.5s;")
-        searchBar.value = "";
     }
 
     else{
-        window.location.href= '#/cook/' + recipe.id;
-        searchBar.value = "";
-        colourChangeClick('cookNav');
-
+        if (recipe != undefined){
+            window.location.href= '#/cook/' + recipe.id;
+            searchBar.value = "";
+            colourChangeClick('cookNav');
+        }
+        if (learn != undefined){
+            window.location.href= '#/learn/' + learn.id;
+            searchBar.value = "";
+            colourChangeClick('learnNav');
+        }
+        
     }
 
 }
