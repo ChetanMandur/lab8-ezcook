@@ -77,3 +77,15 @@
   90% { transform: translate(1px, 0px) rotate(0deg); }
   100% { transform: translate(1px, 0px) rotate(0deg); }
 }
+
+.helpcloseButton{
+  border-radius: 10%;
+  color:black;
+  padding: 8px;
+  font-weight: bold;
+  font-size:calc(0.75em + 0.5vmin);
+}
+
+.helpcloseButton:hover{
+  background-color: orange;
+}

@@ -89,9 +89,9 @@ function HelpButton() {
               After filling out all the required fields and submitting, your recipe will be sent for review by our staff. 
           </Modal.Body>
           <Modal.Footer>
-            <Button variant="secondary" onClick={handleClose}>
-              Close
-            </Button>
+            <div className="helpcloseButton" onClick={handleClose}>
+                Close
+            </div>
           </Modal.Footer>
         </Modal>
       </>
