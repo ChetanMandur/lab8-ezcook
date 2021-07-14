@@ -5,6 +5,10 @@ import recipeListJSON from '../data/recipes.json';
 import PageNotFound from '../Base/PageNotFound';
 
 import {useEffect} from 'react'
+import { Modal, Button } from 'react-bootstrap';
+
+import { useState } from 'react';
+
 
 export function colourChangeClick(id) {
     document.getElementById(id).style.backgroundColor = "white";
@@ -52,6 +56,48 @@ function searchBar(){
 
 }
 
+function HelpButton() {
+    const [show, setShow] = useState(false);
+  
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+  
+    return (
+      <>
+        <div className="helpNav" onClick={handleShow}><MdHelpOutline/></div>
+  
+        <Modal show={show} onHide={handleClose}>
+          <Modal.Header closeButton>
+            <Modal.Title>Help</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+              <b>Cook:</b>
+              <br />
+              In this section, you are able to browse all the available recipes. <br />
+              Clicking one will bring you to a page where you can view the steps required to preparing the food.
+              <br />
+              <br />
+              <b>Learn:</b>
+              <br />
+              In this section, you are able to browse all the available tutorials on the website. <br />
+              Clicking one will bring you to the video page where you are able to watch the tutorial.
+              <br />
+              <br />
+              <b>Create:</b>
+              <br />
+              In this section, you are able to create a recipe for <i>EZcook</i>! <br />
+              After filling out all the required fields and submitting, your recipe will be sent for review by our staff. 
+          </Modal.Body>
+          <Modal.Footer>
+            <Button variant="secondary" onClick={handleClose}>
+              Close
+            </Button>
+          </Modal.Footer>
+        </Modal>
+      </>
+    );
+  }
+
 const Navbar = () => {
 
     
@@ -93,7 +139,8 @@ const Navbar = () => {
             </div>
 
             <div className="extra">
-                <div className="helpNav"><MdHelpOutline/></div>
+                {/* <div className="helpNav"><MdHelpOutline/></div> */}
+                <HelpButton/>
                 <input className="searchNav" placeholder="Search..." type="text" name="" id="searchBar" />
             </div>
             
