@@ -125,29 +125,34 @@ const Navbar = () => {
         document.getElementById('searchBar').addEventListener('animationend', () => {
             document.getElementById("searchBar").style.animation = null;
           });
+
+        document.getElementById("cookNav").onclick = () => colourChangeClick('cookNav');
+        document.getElementById("cookNav").onmouseover = () => colourChangeHover('cookNav');
+        document.getElementById("cookNav").onmouseout = () => colourChangeOff('cookNav');
+
+        document.getElementById("learnNav").onclick = () => colourChangeClick('learnNav');
+        document.getElementById("learnNav").onmouseover = () => colourChangeHover('learnNav');
+        document.getElementById("learnNav").onmouseout = () => colourChangeOff('learnNav');
+
+        document.getElementById("createNav").onclick = () => colourChangeClick('createNav');
+        document.getElementById("createNav").onmouseover = () => colourChangeHover('createNav');
+        document.getElementById("createNav").onmouseout = () => colourChangeOff('createNav');
+
     });
     
     return ( 
         <nav className="navbar">
+            
             <h1><span style={{color:'orange', fontWeight:'bold'}}>EZ</span>cook</h1>
             <div className="links">
 
                 <a href="#/cook" id="cookNav" style={{color:"orange"}} 
-                    onClick={(e) => colourChangeClick(e.target.id)}
-                    onMouseOver={(e) => colourChangeHover(e.target.id)}
-                    onMouseOut={(e) => colourChangeOff(e.target.id) }
                     >Cook</a>
 
                 <a href="#/learn" id="learnNav" 
-                    onClick={(e) => colourChangeClick(e.target.id)}
-                    onMouseOver={(e) => colourChangeHover(e.target.id)}
-                    onMouseOut={(e) => colourChangeOff(e.target.id)}
                 >Learn</a>
 
                 <a href="#/create" id="createNav" 
-                    onClick={(e) => colourChangeClick(e.target.id)}
-                    onMouseOver={(e) => colourChangeHover(e.target.id)}
-                    onMouseOut={(e) => colourChangeOff(e.target.id)}
                 >Create</a>
             </div>
 

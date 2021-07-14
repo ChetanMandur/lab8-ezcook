@@ -8,6 +8,7 @@ import {HashRouter as Router, Route, Switch} from 'react-router-dom';
 import SingleRecipePage from './Cook/SingleRecipePage';
 import SingleLearn from './Learn/SingleLearn';
 import Create from './Create/Create';
+import Footer from './Base/Footer';
 
 
 function App() {
@@ -46,6 +47,8 @@ function App() {
             </Switch>
             
           </div>
+          <br />
+          <Footer/>
         </div>
       </Router>
 
