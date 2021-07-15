@@ -73,9 +73,9 @@ const SingleRecipePage = () => {
                         <Col>
                             <div className="prepBorder">
                                 <div className="singleRecipeSub">
-                                    <h1>Preperation</h1>
+                                    <h1>Steps</h1>
                                     <ol>
-                                        {recipe.prep.map(
+                                        {recipe.steps.map(
                                             current => ( <li>{current}</li> )
                                         )}
 

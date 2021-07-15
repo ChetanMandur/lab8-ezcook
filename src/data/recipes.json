@@ -2,167 +2,219 @@
     {
         "id":1,
         "name": "Grilled Cheese",
-        "desc": "A simple yet delicious classic.  ",
-        "body":"This is the body of how to make grilled cheese",
-        "steps": ["This is the first step in making a grilled cheese", "this is the second step of making a grilled cheese"],
-        "image": "imgs/grilledcheese.jpg",
+        "desc": "A simple yet delicious classic. ",
+        "steps": ["Preheat oven to 450 degrees F (230 degrees C)."
+            ,"Butter one side of 9 slices of bread, and place butter-side down on a baking sheet. Arrange cheese on each slice of bread. Spread butter on 9 remaining slices of bread, and place them buttered-side up on top of the cheese."
+            ,"Bake in preheated oven for 6 to 8 minutes. Flip the sandwiches, and bake an additional 6 to 8 minutes, or until golden brown."
+        , "Taken from: https://www.allrecipes.com/recipe/32089/awesome-grilled-cheese-sandwiches/"],
+        "image": "imgs/grilledcheese2.jpg",
         "trending": true,
         "favourite": true,
-        "ing": ["ing1","ing2", "ing3", "ing4"],
-        "prep": ["prep1","prep2", "prep3", "prep4"],
-        "timePrep": 5,
-        "timeCook": 5,
-        "servings": 1,
+        "ing": ["18 slices bread","4 tablespoons butter", "9 slices Cheddar cheese"],
+        "timePrep": 10,
+        "timeCook": 15,
+        "servings": 9,
         "diff": "Easy"
 
     },
     {
         "id":2,
         "name": "Apple Pie",
-        "desc": "Description of apple pie",
+        "desc": "Baked with a cinnamon crust.",
         "body":"This is the body of how to make apple pie",
-        "steps": ["This is the first step in making an apple pie", "this is the second step of making an apple pie"],
-        "image": "imgs/applepie.jpg",
+        "steps": ["Preheat oven to 350 degrees F (175 degrees C)."
+                , "Toss apples with 1 tablespoon of sugar, and pour them into a pie plate. Thoroughly mix together 1 cup of sugar with the flour, cinnamon, butter, and egg. Spread this evenly over the top of the pie."
+                ,"Bake in preheated oven until the apples have cooked and the topping is golden brown, about 40 to 45 minutes."
+                ,"Taken from: https://www.allrecipes.com/recipe/54628/easy-swedish-apple-pie/ "
+                ],
+        "image": "imgs/applepie2.jpg",
         "trending": true,
         "favourite": false,
-        "ing": ["ing1","ing2", "ing3", "ing4"],
+        "ing": ["1 ½ pounds Granny Smith apples - peeled, cored and sliced"
+            ,"1 tablespoon sugar"
+            , "1 cup sugar"
+            , "1 cup flour"
+            ,"1 teaspoon cinnamon"
+            ,"¾ cup melted butter"
+            , "1 egg"],
         "prep": ["prep1","prep2", "prep3", "prep4"],
-        "timePrep": 5,
-        "timeCook": 5,
-        "servings": 1,
-        "diff": "Easy"
+        "timePrep": 20,
+        "timeCook": 45,
+        "servings": 8,
+        "diff": "Medium"
         
     },
     {
         "id":3,
         "name": "Big Mac",
-        "desc": "Description of Big Mac",
+        "desc": "The famous burger",
         "body":"This is the body of how to make Big Mac",
-        "steps": ["This is the first step in making an Big Mac", "this is the second step of making an Big Mac"],
-        "image": "imgs/bigmac.jpg",
+        "steps": ["Shape ground beef into 4 flat patties that will fit the hamburger buns. Place them on a tray lined with waxed paper; transfer to the freezer."
+            ,"Mix mayonnaise, mustard, pickle relish, white wine vinegar, onion powder, garlic powder, and paprika in a bowl to make sauce. Refrigerate for 10 minutes."
+            ,"Preheat a large skillet over medium heat. Toast buns in batches until lightly golden, 1 to 2 minutes."
+            ,"Layer some of the sauce, 1 tablespoon minced onion, 2 tablespoons lettuce, and pickles on 2 bottom buns. Layer some of the sauce and remaining 1 tablespoon minced onion, 2 tablespoons lettuce, and American cheese on the other bottom buns."
+            ,"Season patties with salt and pepper. Cook in the hot skillet 2 at a time until browned, 3 to 4 minutes per side. Place 1 patty over each bottom bun; stack and cover with top buns."
+            ,"Taken from: https://www.allrecipes.com/recipe/256421/big-mac-clone/"],
+        "image": "imgs/bigmac2.jpg",
         "trending": true,
         "favourite": true,
-        "ing": ["ing1","ing2", "ing3", "ing4"],
+        "ing": ["⅔ pound ground beef (85% lean)"
+            ,"2 cups mayonnaise"
+            , "2 tablespoons prepared yellow mustard"
+            , "2 tablespoons sweet pickle relish"
+            ,"½ tablespoon white wine vinegar, or more to taste"
+            ,"1 teaspoons onion powder"
+            ,"1 teaspoons garlic powder"
+            ,"1 teaspoons ground paprika"
+            ,"2 hamburger bun tops"
+            ,"2 tablespoons minced onion, or to taste"
+            ,"½ cup shredded lettuce, or to taste"
+            ,"2 tablespoons dill pickle slices, or to taste"
+            ,"2 slices American cheese"
+            ,"salt and ground black pepper to taste"],
         "prep": ["prep1","prep2", "prep3", "prep4"],
-        "timePrep": 5,
-        "timeCook": 5,
-        "servings": 1,
-        "diff": "Easy"
+        "timePrep": 15,
+        "timeCook": 14,
+        "servings": 2,
+        "diff": "Hard"
     }
     ,
     {
         "id":4,
-        "name": "Sushi",
-        "desc": "Description of Sushi",
+        "name": "Spicy Sushi Roll",
+        "desc": "A sweet and spicy sushi",
         "body":"This is the body of how to make Sushi",
-        "steps": ["This is the first step in making an Sushi", "this is the second step of making an Sushi"],
-        "image": "imgs/sushi.jpg",
+        "steps": ["Mix mayonnaise, chile sauce, togarashi, wasabi, chili powder, and paprika together in a bowl; fold in imitation crabmeat until evenly coated."
+            , "Spread rice in an even layer across each nori sheet. Spoon a layer of crabmeat mixture in a row along the top edge of each nori sheet."
+            ,"Roll nori sheet around the crabmeat mixture filling, starting on the filling side until completely wrapped. Cut each roll into 8 equal pieces."
+            ,"Taken from: https://www.allrecipes.com/recipe/241197/spicy-sushi-roll/"],
+        "image": "imgs/sushi2.jpg",
         "trending": true,
         "favourite": false,
-        "ing": ["ing1","ing2", "ing3", "ing4"],
+        "ing": ["¼ cup mayonnaise"
+            ,"1 tablespoon chile sauce"
+            , "1 ½ teaspoons togarashi (Japanese seven spice)"
+            , "1 teaspoon prepared wasabi"
+            ,"1 teaspoon chili powder"
+            ,"1 teaspoon paprika"
+            ,"3 (3 ounce) fillets imitation crabmeat, cut into 1 1/2-inch pieces"
+            ,"2 cups cooked sushi rice"
+            ,"3 sheets nori (dry seaweed)"],
         "prep": ["prep1","prep2", "prep3", "prep4"],
-        "timePrep": 5,
-        "timeCook": 5,
-        "servings": 1,
-        "diff": "Easy"
+        "timePrep": 15,
+        "timeCook": 0,
+        "servings": 3,
+        "diff": "Medium"
     },
     {
         "id":5,
-        "name": "Sushi2",
-        "desc": "Description of Sushi",
+        "name": "Chicken Alfredo Casserole",
+        "desc": "A nice play on chicken Alfredo",
         "body":"This is the body of how to make Sushi",
-        "steps": ["This is the first step in making an Sushi", "this is the second step of making an Sushi"],
-        "image": "imgs/sushi.jpg",
+        "steps": ["Preheat the oven to 350 degrees F (175 degrees C)."
+            , "Place chicken into a pot and cover with water. Bring to a boil over high heat; reduce heat and simmer until no longer pink in the centers and juices run clear, about 15 minutes."
+            ,"At the same time, bring a large pot of lightly salted water to a boil. Add penne and cook, stirring occasionally, until tender yet firm to the bite, about 11 minutes. Drain. Drain cooked chicken and cut into bite-size pieces."
+            ,"Place chicken, noodles, Alfredo sauce, 1/2 mozzarella cheese, milk, onion powder, and garlic powder in a large bowl and mix well. Pour into a 1 1/2-quart casserole dish. Layer remaining mozzarella cheese and Cheddar cheese on top."
+            ,"Bake in the preheated oven until melted and bubbly, about 25 minutes."
+            ,"Taken from: https://www.allrecipes.com/recipe/276726/chicken-alfredo-casserole/"],
+        "image": "imgs/alfredo.jpg",
         "trending": true,
-        "favourite": false,
-        "ing": ["ing1","ing2", "ing3", "ing4"],
+        "favourite": true,
+        "ing": ["3 skinless, boneless chicken breast halves"
+            ,"1 (8 ounce) package penne pasta"
+            , "½ (16 ounce) jar Alfredo sauce"
+            , "1 ½ cups shredded mozzarella cheese, divided"
+            , "¼ cup milk"
+            ,"1 tablespoon onion powder" 
+            ,"1 tablespoon garlic powder" 
+            , "1 cup shredded Cheddar cheese"],
         "prep": ["prep1","prep2", "prep3", "prep4"],
-        "timePrep": 5,
-        "timeCook": 5,
-        "servings": 1,
-        "diff": "Easy"
+        "timePrep": 15,
+        "timeCook": 45,
+        "servings": 6,
+        "diff": "Medium"
     },
     {
         "id":6,
-        "name": "Sushi3",
-        "desc": "Description of Sushi",
+        "name": "BLT",
+        "desc": "Bacon, lettuce, and tomato.",
         "body":"This is the body of how to make Sushi",
-        "steps": ["This is the first step in making an Sushi", "this is the second step of making an Sushi"],
-        "image": "imgs/sushi.jpg",
+        "steps": ["Cook the bacon in a large, deep skillet over medium-high heat until evenly browned, about 10 minutes. Drain the bacon slices on a paper towel-lined plate."
+            , "Arrange the cooked bacon, lettuce, and tomato slices on one slice of bread. Spread one side of remaining bread slice with the mayonnaise. Bring the two pieces together to make a sandwich."
+            ,"Taken from: https://www.allrecipes.com/recipe/209578/blt/"],
+        "image": "imgs/blt.jpg",
         "trending": true,
         "favourite": false,
-        "ing": ["ing1","ing2", "ing3", "ing4"],
+        "ing": ["4 slices bacon"
+            ,"2 leaves lettuce"
+            , "2 slices tomato"
+            , "2 slices bread, toasted"
+            ,"1 tablespoon mayonnaise"],
         "prep": ["prep1","prep2", "prep3", "prep4"],
         "timePrep": 5,
-        "timeCook": 5,
+        "timeCook": 10,
         "servings": 1,
         "diff": "Easy"
     },
     {
         "id":7,
-        "name": "Sushi4",
-        "desc": "Description of Sushi",
+        "name": "Chocolate Chunk Cookies",
+        "desc": "Hard outside, soft inside",
         "body":"This is the body of how to make Sushi",
-        "steps": ["This is the first step in making an Sushi", "this is the second step of making an Sushi"],
-        "image": "imgs/sushi.jpg",
-        "trending": true,
-        "favourite": false,
-        "ing": ["ing1","ing2", "ing3", "ing4"],
+        "steps": ["Combine brown sugar, butter, white sugar, and salt in a large bowl; beat with an electric mixer until a creamy, deep brown mixture forms. Add egg and vanilla; beat until mixture lightens and becomes smooth, 10 to 15 seconds."
+            , "Mix flour and baking soda together in a separate bowl. Add slowly to the wet ingredients until mostly incorporated, but some white traces of flour remain. Fold in milk chocolate, dark chocolate, and white chocolate using a spatula, not the mixer. Cover the dough and refrigerate for at least 30 minutes, or up to 48 hours."
+            ,"Preheat the oven to 350 degrees F (175 degrees C) when ready to bake."
+            ,"Divide cold dough into 2 1/4-ounce portions and place on a cookie sheet."
+            ,"Bake in the preheated oven until the edges start to look golden brown and crispy, 10 to 12 minutes. Do not overbake; the centers will not look fully done. Cool until cookies are set, about 30 minutes."
+            ,"Taken from: https://www.allrecipes.com/recipe/278882/triple-chocolate-chunk-cookies/"],
+        "image": "imgs/chocolatechunk.jpg",
+        "trending": false,
+        "favourite": true,
+        "ing": ["¾ cup brown sugar"
+            ,"½ cup unsalted butter, at room temperature"
+            , "½ cup white sugar"
+            , "1 teaspoon salt"
+            , "1 large egg"
+            ,"1 teaspoon vanilla extract"
+            ,"1 ½ cups all-purpose flour"
+            ,"¾ teaspoon baking soda"
+            ,"1 cup milk chocolate chips"
+            ,"1 (3 ounce) bar dark chocolate, cut into chunks"
+            ,"3 tablespoons white chocolate chips"],
         "prep": ["prep1","prep2", "prep3", "prep4"],
-        "timePrep": 5,
-        "timeCook": 5,
-        "servings": 1,
+        "timePrep": 75,
+        "timeCook": 10,
+        "servings": 12,
         "diff": "Easy"
     }
     ,
     {
         "id":8,
-        "name": "Sushi5",
-        "desc": "Description of Sushi",
+        "name": "Mac and Cheese",
+        "desc": "Rich homemade mac and cheese",
         "body":"This is the body of how to make Sushi",
-        "steps": ["This is the first step in making an Sushi", "this is the second step of making an Sushi"],
-        "image": "imgs/sushi.jpg",
+        "steps": ["Cook macaroni according to the package directions. Drain."
+             ,"In a saucepan, melt butter or margarine over medium heat. Stir in enough flour to make a roux. Add milk to roux slowly, stirring constantly. Stir in cheeses, and cook over low heat until cheese is melted and the sauce is a little thick. Put macaroni in large casserole dish, and pour sauce over macaroni. Stir well."
+            ,"Melt butter or margarine in a skillet over medium heat. Add breadcrumbs and brown. Spread over the macaroni and cheese to cover. Sprinkle with a little paprika."
+            ,"Bake at 350 degrees F (175 degrees C) for 30 minutes. Serve."
+            ,"Taken from: https://www.allrecipes.com/recipe/11679/homemade-mac-and-cheese/"],
+        "image": "imgs/macandcheese.png",
         "trending": true,
         "favourite": false,
-        "ing": ["ing1","ing2", "ing3", "ing4"],
+        "ing": ["8 ounces uncooked elbow macaroni"
+            ,"2 cups shredded sharp Cheddar cheese"
+            , "½ cup grated Parmesan cheese"
+            , "3 cups milk"
+            ,"¼ cup butter"
+            ,"2 ½ tablespoons all-purpose flour"
+            ,"2 tablespoons butter"
+            ,"½ cup bread crumbs"
+            ,"1 pinch paprika"],
         "prep": ["prep1","prep2", "prep3", "prep4"],
-        "timePrep": 5,
-        "timeCook": 5,
-        "servings": 1,
+        "timePrep": 20,
+        "timeCook": 30,
+        "servings": 4,
         "diff": "Easy"
     }
-    ,
-    {
-        "id":9,
-        "name": "Sushi5",
-        "desc": "Description of Sushi",
-        "body":"This is the body of how to make Sushi",
-        "steps": ["This is the first step in making an Sushi", "this is the second step of making an Sushi"],
-        "image": "imgs/sushi.jpg",
-        "trending": true,
-        "favourite": false,
-        "ing": ["ing1","ing2", "ing3", "ing4"],
-        "prep": ["prep1","prep2", "prep3", "prep4"],
-        "timePrep": 5,
-        "timeCook": 5,
-        "servings": 1,
-        "diff": "Easy"
-    }
-    ,
-    {
-        "id":10,
-        "name": "Sushi5",
-        "desc": "Description of Sushi",
-        "body":"This is the body of how to make Sushi",
-        "steps": ["This is the first step in making an Sushi", "this is the second step of making an Sushi"],
-        "image": "imgs/sushi.jpg",
-        "trending": true,
-        "favourite": false,
-        "ing": ["ing1","ing2", "ing3", "ing4"],
-        "prep": ["prep1","prep2", "prep3", "prep4"],
-        "timePrep": 5,
-        "timeCook": 5,
-        "servings": 1,
-        "diff": "Easy"
-    }
+
 ]

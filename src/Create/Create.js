@@ -42,7 +42,7 @@ const Create = () => {
 
                     <Col>
                         <label>
-                            <div className="inputSubHead">Preperation:</div>
+                            <div className="inputSubHead">Steps:</div>
 
                             <textarea className="createPrep" rows="25" cols= "10" id="createPrep" name="preperation"></textarea>
                         </label>
