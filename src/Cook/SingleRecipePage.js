@@ -55,7 +55,7 @@ const SingleRecipePage = () => {
                         </Col>
                         <Col>
                             <div className="singleRecipeSub">
-                                <h1><ImClock/> Aditional Info</h1>
+                                <h1><ImClock/>Aditional Info</h1>
                                 <ul>
                                     <li><b>Total Time:</b> {recipe.timePrep + recipe.timeCook} min(s)</li>
                                     <ul>
