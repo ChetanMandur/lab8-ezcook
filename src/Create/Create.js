@@ -2,6 +2,9 @@ import {colourChangeClick} from '../Base/Navbar.js'
 import './css/Create.css';
 import { Col, Row } from "react-bootstrap";
 
+import {ImSpoonKnife, ImList2, ImClock} from "react-icons/im";
+import {IoFastFoodOutline} from "react-icons/io5"
+
 const Create = () => {
     return (  
         <div className="createMain">
@@ -16,14 +19,14 @@ const Create = () => {
                     <Col>
                         <Row>
                             <label>
-                                <div className="inputSubHead">Name:</div>
+                                <div className="inputSubHead"><IoFastFoodOutline/>Name:</div>
                                 <input className="createName" type="text" width="80px" id="createName" name="name"></input>
                             </label>
                         </Row>
 
                         <Row>
                             <label>
-                                <div className="inputSubHead">Ingredients:</div>
+                                <div className="inputSubHead"><ImList2/>Ingredients:</div>
 
                                 <textarea className="createIngredients" rows="10" cols= "10"  id="createIngredients" name="ingredients"></textarea>
                             </label>
@@ -31,7 +34,7 @@ const Create = () => {
 
                         <Row>
                             <label>
-                                <div className="inputSubHead">Additional Information:</div>
+                                <div className="inputSubHead"><ImClock/>Additional Information:</div>
 
                                 <textarea className="createAddInfo" rows="10" cols= "10" id="createAddInfo" name="addinfo"></textarea>
                             </label>
@@ -42,7 +45,7 @@ const Create = () => {
 
                     <Col>
                         <label>
-                            <div className="inputSubHead">Steps:</div>
+                            <div className="inputSubHead"><ImSpoonKnife/>Steps:</div>
 
                             <textarea className="createPrep" rows="25" cols= "10" id="createPrep" name="preperation"></textarea>
                         </label>

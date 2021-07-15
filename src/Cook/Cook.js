@@ -6,7 +6,7 @@ const Cook = () => {
             <br></br>
             <RecipeRow name="Trending" filterType="trending"></RecipeRow>
             <br></br>
-            <RecipeRow name="Favourite" filterType="favourite"></RecipeRow>
+            <RecipeRow name="Your Favourites" filterType="favourite"></RecipeRow>
         </div>
     );
 }
