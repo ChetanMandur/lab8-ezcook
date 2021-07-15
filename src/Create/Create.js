@@ -49,7 +49,7 @@ const Create = () => {
                     </Col>
                 </Row>
 
-                <Row >
+                <Row noGutters={true}>
                     <input className="createSubmit" type="button" value="Submit" onClick={checkFields}/>
                 </Row>
             </div>
