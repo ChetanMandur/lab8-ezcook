@@ -78,3 +78,8 @@
       transform: translateX(0); 
     }
 }
+
+svg{
+    text-decoration: none;
+    padding-bottom: 3px;
+}

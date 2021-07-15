@@ -4,6 +4,8 @@ import PageNotFound from '../Base/PageNotFound';
 import './css/SingleRecipePage.css'
 import { Card, Col, Container, Row } from "react-bootstrap";
 
+import {ImSpoonKnife, ImList2, ImClock} from "react-icons/im";
+
 const SingleRecipePage = () => {
     const {id} = useParams();
     
@@ -41,7 +43,7 @@ const SingleRecipePage = () => {
                     <Row noGutters={true}>
                         <Col>
                             <div className="singleRecipeSub">
-                                <h1>Ingredients</h1>
+                                <h1><ImList2/>Ingredients</h1>
                                 <ul>
                                     {recipe.ing.map(
                                         current => ( <li>{current}</li> )
@@ -53,7 +55,7 @@ const SingleRecipePage = () => {
                         </Col>
                         <Col>
                             <div className="singleRecipeSub">
-                                <h1>Aditional Info</h1>
+                                <h1><ImClock/> Aditional Info</h1>
                                 <ul>
                                     <li><b>Total Time:</b> {recipe.timePrep + recipe.timeCook} min(s)</li>
                                     <ul>
@@ -73,7 +75,7 @@ const SingleRecipePage = () => {
                         <Col>
                             <div className="prepBorder">
                                 <div className="singleRecipeSub">
-                                    <h1>Steps</h1>
+                                    <h1><ImSpoonKnife/>Steps</h1>
                                     <ol>
                                         {recipe.steps.map(
                                             current => ( <li>{current}</li> )
