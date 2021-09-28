@@ -1,5 +1,6 @@
 This project was made for SEG 3125. 
 It acts as a poof of concept recipe website.
+[Click here to see it live](https://chetanmandur.github.io/lab8-ezcook/#/)
 
 
 # Getting Started with Create React App
