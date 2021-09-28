@@ -1,3 +1,7 @@
+This project was made for SEG 3125. 
+It acts as a poof of concept recipe website.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
